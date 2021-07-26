@@ -13,4 +13,4 @@ Crafty.viewport.scale(1.5);
 Crafty.one("CameraAnimationDone", function() {
     Crafty.viewport.follow(player, 0, 0);
 });
-Crafty.viewport.centerOn(player, 10000);
+Crafty.viewport.centerOn(player, .00001);
