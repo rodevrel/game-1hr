@@ -9,8 +9,8 @@ var f1 = Crafty.e('2D, Color, Floor').attr({x: -100, y: 5000, w: 1000, h: 100}).
 
 
 Crafty.viewport.clampToEntities = false;
-Crafty.viewport.scale(2);
+Crafty.viewport.scale(1.5);
 Crafty.one("CameraAnimationDone", function() {
     Crafty.viewport.follow(player, 0, 0);
 });
-Crafty.viewport.centerOn(player, 3000);
+Crafty.viewport.centerOn(player, 10000);
